@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "omnimcp": {
+      "command": "C:\\path\\to\\OmniMCP-main\\.venv\\Scripts\\python.exe",
+      "args": [
+        "run_omnimcp.py"
+      ]
+    }
+  }
+}

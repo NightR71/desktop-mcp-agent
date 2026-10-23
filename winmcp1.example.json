@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "windows-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\path\\to\\Windows-MCP",
+        "run",
+        "windows-mcp"
+      ]
+    }
+  }
+}

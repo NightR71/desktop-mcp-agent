@@ -1,0 +1,20 @@
+# 本项目在 Windows 11 + Python 3.11.13 上验证通过
+# 安装：pip install -r requirements.txt
+# 提示：PyAudio 若安装失败，请下载对应 cp311 的 wheel 后本地安装
+
+# MCP 协议与自研 MCP Server（FastMCP 包含在 mcp SDK 中）
+mcp==1.12.4
+# LLM 客户端（默认接入 DeepSeek，OpenAI 兼容接口）
+openai==1.99.3
+# 智谱 GLM SDK（代码中保留的可选后端）
+zai-sdk==0.0.3.3
+# 环境变量加载
+python-dotenv==1.1.1
+# HTTP 请求（百度语音识别）
+requests==2.32.4
+# 桌面 GUI
+PyQt5==5.15.11
+# 麦克风录音
+PyAudio==0.2.14
+# 全局快捷键
+keyboard==0.13.5

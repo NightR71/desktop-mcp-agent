@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "python",
+      "args": [
+        "utils\\DesktopMCP.py"
+      ],
+      "transport": "stdio"
+    },
+    "word-document-server": {
+      "command": "python",
+      "args": [
+        "utils\\Office-Word-MCP-Server-main\\word_mcp_server.py"
+      ]
+    },
+    "excel": {
+      "command": "uvx",
+      "args": [
+        "excel-mcp-server",
+        "stdio"
+      ]
+    },
+    "undoom-pdf-mcp": {
+      "command": "uvx",
+      "args": [
+        "--index-url",
+        "https://pypi.tuna.tsinghua.edu.cn/simple",
+        "undoom-pdf-mcp"
+      ]
+    },
+    "windows-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\path\\to\\Windows-MCP",
+        "run",
+        "windows-mcp"
+      ]
+    },
+    "amap-maps": {
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.net/<your-endpoint-id>/sse"
+    }
+  }
+}

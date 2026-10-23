@@ -1,0 +1,35 @@
+# ===== 密钥与环境变量 =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 本地运行配置（含本机路径或账号端点，不入库）=====
+winmcp1.json
+winmcp2.json
+omnimcp.json
+servers_config.json
+UIsettings.json
+
+# ===== 个人材料与测试产物 =====
+docs/项目证明-*.md
+docs/源码摘录-*/
+report.docx
+report_copy.docx
+screenshot1.jpg
+
+# ===== 第三方 MCP 源码（按 README 说明单独获取，不随仓库分发）=====
+utils/Office-Word-MCP-Server-main/
+utils/undoom_pdf_mcp-main/
+
+# ===== 临时文件 =====
+.tmp_check/
+.DS_Store
+Thumbs.db
+.idea/
